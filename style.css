@@ -1,0 +1,21 @@
+section {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+}
+section:nth-child(odd) {
+  background: #fff;
+}
+.text-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  mix-blend-mode: difference;
+}
+.text-container h1 {
+  font-size: 150px;
+}
